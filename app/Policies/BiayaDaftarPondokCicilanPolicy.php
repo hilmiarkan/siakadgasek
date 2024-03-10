@@ -13,7 +13,7 @@ class BiayaDaftarPondokCicilanPolicy
      */
     public function viewAny(User $user): bool
     {
-        //
+        return true;
     }
 
     /**
@@ -21,7 +21,7 @@ class BiayaDaftarPondokCicilanPolicy
      */
     public function view(User $user, BiayaDaftarPondokCicilan $biayaDaftarPondokCicilan): bool
     {
-        //
+        return true;
     }
 
     /**
@@ -29,7 +29,7 @@ class BiayaDaftarPondokCicilanPolicy
      */
     public function create(User $user): bool
     {
-        //
+        return true;
     }
 
     /**
@@ -37,7 +37,7 @@ class BiayaDaftarPondokCicilanPolicy
      */
     public function update(User $user, BiayaDaftarPondokCicilan $biayaDaftarPondokCicilan): bool
     {
-        //
+        return true;
     }
 
     /**
@@ -45,7 +45,7 @@ class BiayaDaftarPondokCicilanPolicy
      */
     public function delete(User $user, BiayaDaftarPondokCicilan $biayaDaftarPondokCicilan): bool
     {
-        //
+        return true;
     }
 
     /**
@@ -53,7 +53,7 @@ class BiayaDaftarPondokCicilanPolicy
      */
     public function restore(User $user, BiayaDaftarPondokCicilan $biayaDaftarPondokCicilan): bool
     {
-        //
+        return true;
     }
 
     /**
@@ -61,6 +61,6 @@ class BiayaDaftarPondokCicilanPolicy
      */
     public function forceDelete(User $user, BiayaDaftarPondokCicilan $biayaDaftarPondokCicilan): bool
     {
-        //
+        return true;
     }
 }

@@ -13,7 +13,8 @@ class BiayaHbhCicilanPolicy
      */
     public function viewAny(User $user): bool
     {
-        //
+        return true;
+
     }
 
     /**
@@ -21,7 +22,8 @@ class BiayaHbhCicilanPolicy
      */
     public function view(User $user, BiayaHbhCicilan $biayaHbhCicilan): bool
     {
-        //
+        return true;
+
     }
 
     /**
@@ -29,7 +31,8 @@ class BiayaHbhCicilanPolicy
      */
     public function create(User $user): bool
     {
-        //
+        return true;
+
     }
 
     /**
@@ -37,7 +40,8 @@ class BiayaHbhCicilanPolicy
      */
     public function update(User $user, BiayaHbhCicilan $biayaHbhCicilan): bool
     {
-        //
+        return true;
+
     }
 
     /**
@@ -45,7 +49,8 @@ class BiayaHbhCicilanPolicy
      */
     public function delete(User $user, BiayaHbhCicilan $biayaHbhCicilan): bool
     {
-        //
+        return true;
+
     }
 
     /**
@@ -53,7 +58,8 @@ class BiayaHbhCicilanPolicy
      */
     public function restore(User $user, BiayaHbhCicilan $biayaHbhCicilan): bool
     {
-        //
+        return true;
+
     }
 
     /**
@@ -61,6 +67,7 @@ class BiayaHbhCicilanPolicy
      */
     public function forceDelete(User $user, BiayaHbhCicilan $biayaHbhCicilan): bool
     {
-        //
+        return true;
+
     }
 }
