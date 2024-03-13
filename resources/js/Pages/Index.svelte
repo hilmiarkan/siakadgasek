@@ -1,6 +1,6 @@
 <script>
     import DashboardLayout from "./Layouts/DashboardLayout.svelte";
-    import LightSidebarWithConstrainedContentArea from "./Components/TailwindUI/ApplicationShells/Sidebar/LightSidebarWithConstrainedContentArea.svelte";
+    // import LightSidebarWithConstrainedContentArea from "./Components/TailwindUI/ApplicationShells/Sidebar/LightSidebarWithConstrainedContentArea.svelte";
     import Login from "./Components/Login.svelte";
     let users = [];
 
