@@ -17,6 +17,7 @@ use Inertia\Inertia;
 Route::inertia('/', 'Index');
 
 Route::inertia('/login', 'Login');
+Route::inertia('/syahriah', 'Syahriah');
 
 Route::inertia('/users', 'User/Index');
 

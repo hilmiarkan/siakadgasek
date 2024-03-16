@@ -202,7 +202,7 @@
                     </li>
                     <li>
                         <a
-                            href="#"
+                            href="/syahriah"
                             class="flex items-center transition-colors p-2 text-gray-900 rounded-lg dark:text-white hover:bg-emerald-100 dark:hover:bg-emerald-700 group"
                         >
                             <svg
