@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
 </head>
 <body>
@@ -297,7 +298,7 @@
     <nav class="flex items-center" aria-label="Breadcrumb">
         <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
           <li class="inline-flex items-center">
-            <a href="#" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+            <a href="#" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-emerald-600 dark:text-gray-400 dark:hover:text-white">
               <svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
               </svg>
@@ -328,7 +329,7 @@
             </div>
             <div>
                 <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Gibran Rakabuming Raka</h5>
-                <p class="text-md text-gray-400">Kamar 11 A</p>
+                <p class="text-md text-gray-500">Kamar 11 A</p>
             </div>
             
         </div>
@@ -415,10 +416,10 @@
        
 
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+    <table class="w-full text-sm text-center rtl:text-right text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-300 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-                <th scope="col" class="px-6 py-3">
+                <th scope="col" class="px-6 py-3 text-left">
                     Tanggal Bayar
                 </th>
                 <th scope="col" class="px-6 py-3">
@@ -440,7 +441,7 @@
         </thead>
         <tbody>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <th scope="row" class="text-left px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     12/12/2023"
                 </th>
                 <td class="px-6 py-4">
@@ -465,7 +466,79 @@
 </div>
 </div>
     <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="styled-syahriah" role="tabpanel" aria-labelledby="syahriah-tab">
-        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+        <div class="overflow-x-auto">
+        <table class="w-full text-sm text-center rtl:text-right text-gray-500 dark:text-gray-400 overflow-hidden">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-300 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3 text-left">
+                        TANGGAL BAYAR
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        BULAN
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        TAHUN
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        NOMINAL
+                    </th>           
+                    <th scope="col" class="px-6 py-3">
+                        Petugas
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        <span class="sr-only">Edit</span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                    <th scope="row" class="text-left px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        12/12/2023"
+                    </th>
+                    <td class="px-6 py-4">
+                        JANUARI
+                    </td>
+                    <td class="px-6 py-4">
+                        2024
+                    </td>
+                    <td class="px-6 py-4">
+                        Rp125.000
+                    </td>
+                    <td class="px-6 py-4">
+                        TAUFIQ
+                    </td>
+                    <td class="px-6 py-4 text-right">
+                        <a href="#" class="text-white bg-gradient-to-r from-red-500 via-red-600 to-red-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Hapus</a>
+                    </td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+        <br>
+        <div class="border-t border-gray-500">
+        <p class="mt-3 mb-3 text-xl text-gray-700 dark:text-gray-100">Bayar Syahriah</p>
+                    
+            <form class="w-auto mx-auto">
+                <label for="quantity-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Bayar untuk berapa bulan</label>
+                <div class="relative flex items-center max-w-[8rem]">
+                    <button type="button" id="decrement-button" data-input-counter-decrement="quantity-input" class="bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:border-gray-600 hover:bg-gray-200 border border-gray-300 rounded-s-lg p-3 h-11 focus:ring-gray-100 dark:focus:ring-gray-700 focus:ring-2 focus:outline-none">
+                        <svg class="w-3 h-3 text-gray-900 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 2">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h16"/>
+                        </svg>
+                    </button>
+                    <input type="text" id="quantity-input" data-input-counter aria-describedby="helper-text-explanation" class="bg-gray-50 border-x-0 border-gray-300 h-11 text-center text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required />
+                    <button type="button" id="increment-button" data-input-counter-increment="quantity-input" class="bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:border-gray-600 hover:bg-gray-200 border border-gray-300 rounded-e-lg p-3 h-11 focus:ring-gray-100 dark:focus:ring-gray-700 focus:ring-2 focus:outline-none">
+                        <svg class="w-3 h-3 text-gray-900 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+                        </svg>
+                    </button>
+                   
+                </div>
+                <p id="helper-text-explanation" class="mt-2 text-sm text-gray-500 dark:text-gray-400">Pilih berapa bulan santri bayar</p>
+            </form>
+        </div>
+    
     </div>
     <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="styled-ulang" role="tabpanel" aria-labelledby="ulang-tab">
         <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
