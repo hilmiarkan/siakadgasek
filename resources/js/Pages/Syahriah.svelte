@@ -517,10 +517,10 @@
     </div>
         <br>
         <div class="border-t border-gray-500">
-        <p class="mt-3 mb-3 text-xl text-gray-700 dark:text-gray-100">Bayar Syahriah</p>
+        <p class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bayar Syahriah</p>
                     
             <form class="w-auto mx-auto">
-                <label for="quantity-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Bayar untuk berapa bulan</label>
+                <label for="quantity-input" class="block mb-2 text-sm font-medium text-gray-500 dark:text-white">Bayar untuk berapa bulan</label>
                 <div class="relative flex items-center max-w-[8rem]">
                     <button type="button" id="decrement-button" data-input-counter-decrement="quantity-input" class="bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:border-gray-600 hover:bg-gray-200 border border-gray-300 rounded-s-lg p-3 h-11 focus:ring-gray-100 dark:focus:ring-gray-700 focus:ring-2 focus:outline-none">
                         <svg class="w-3 h-3 text-gray-900 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 2">
@@ -535,7 +535,13 @@
                     </button>
                    
                 </div>
-                <p id="helper-text-explanation" class="mt-2 text-sm text-gray-500 dark:text-gray-400">Pilih berapa bulan santri bayar</p>
+                <div class="mt-5">
+                <p>Total</p>
+                <p class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"></p>
+                <button>
+                    <span class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rp250.000</span>
+                  </button>
+                    </div>
             </form>
         </div>
     
